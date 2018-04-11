@@ -7,6 +7,7 @@ import { AppRoutingModule } from './/app-routing.module';
 import { HeaderComponent } from "./header/header.component";
 import { FooterComponent } from "./footer/footer.component";
 import { HomeModule } from "gb-home-library";
+import {PetitionsModule} from "gb-service-example";
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { HomeModule } from "gb-home-library";
     BrowserModule,
     AppRoutingModule,
     HomeModule,
+    PetitionsModule,
     TabsModule.forRoot()
   ],
   providers: [],

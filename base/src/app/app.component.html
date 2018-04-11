@@ -1,13 +1,24 @@
 
 <app-header></app-header>
 
-<!-- Navigation Menu, puede ser un componente dependiendo el tamaño del app -->
+<!-- Navigation Menu, puede ser un componente dependiendo el tamaño del app
 <div>
   <tabset>
     <tab heading="Home" id="tab1" [routerLink]="['/home']"></tab>
-    <tab heading="Basic Title 1">Basic content 1</tab>
+    <tab heading="Petitions" id="tab2" [routerLink]="['/petitions']"></tab>
   </tabset>
 </div>
+-->
+
+<nav class="nav">
+  <a [routerLink]="['/home']" [routerLinkActive]="['activado']">
+    Home
+  </a>
+  <a [routerLink]="['/petitions']" [routerLinkActive]="['activado']">
+    Peticiones
+  </a>
+</nav>
+
 
 <router-outlet></router-outlet>
 
