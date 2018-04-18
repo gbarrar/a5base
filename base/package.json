@@ -25,6 +25,7 @@
     "core-js": "^2.4.1",
     "gb-home-library": "0.0.2",
     "gb-service-example": "0.0.0",
+    "child-module-example-lib": "0.0.2",
     "jquery": "^1.9.1",
     "ngx-bootstrap": "^2.0.3",
     "popper.js": "^1.14.3",

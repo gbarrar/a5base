@@ -8,6 +8,7 @@ import { HeaderComponent } from "./header/header.component";
 import { FooterComponent } from "./footer/footer.component";
 import { HomeModule } from "gb-home-library";
 import {PetitionsModule} from "gb-service-example";
+import{FatherModule} from "child-module-example-lib";
 
 @NgModule({
   declarations: [
@@ -17,10 +18,12 @@ import {PetitionsModule} from "gb-service-example";
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     HomeModule,
     PetitionsModule,
-    TabsModule.forRoot()
+    TabsModule.forRoot(),
+    FatherModule,
+    AppRoutingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
